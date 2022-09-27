@@ -4,6 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Files\prueba.docx" />
+  </ItemGroup>
+
 	<ItemGroup>
 		<PackageReference Include="LazyCache" Version="2.4.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
